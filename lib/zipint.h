@@ -34,7 +34,8 @@
   IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <zlib.h>
+#include "lib/zlib.h"
+
 
 #ifdef _WIN32
 #define ZIP_EXTERN __declspec(dllexport)

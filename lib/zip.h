@@ -37,11 +37,11 @@
 
 
 #ifndef ZIP_EXTERN
-#ifdef _WIN32
+/*#ifdef _WIN32
 #define ZIP_EXTERN __declspec(dllimport)
-#else
+#else*/
 #define ZIP_EXTERN
-#endif
+/*#endif*/
 #endif
 
 #ifdef __cplusplus
